@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAP</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+        text-decoration: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    /*moto1*/
+    .header2{
+        background-color:rgb(250, 251, 252);
+        width: 100%;
+        height: 40px;display: flex;
+        justify-content: space-around;
+        font-size: 12px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.089);
+        
+    }
+    .header2 div{
+        margin-top: 10px;
+        font-weight: 700;
+        opacity: .7;
+        
+    }
+
+    .content1{
+        background-color:rgb(250, 251, 252);
+        border: 1px solid rgba(128, 128, 128, 0.089);
+        margin-left: 10px;
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 1220px;
+        padding-left: 10px;
+        padding-top: 10px;
+        
+    }
+    .content1 .sub1{
+        display: flex;
+        
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 10px;
+        background-color: rgb(250, 251, 252);
+    
+    }
+    .content1 .sub1 :nth-child(2){
+        margin-left: 20px;
+    }
+    .content1 .sub1 :nth-child(3){
+        margin-left: 20px;
+    }.content1 .sub1 :nth-child(4){
+        margin-left: 20px;
+    }.content1 .sub1 :nth-child(5){
+        margin-left: 20px;
+    }.content1 .sub1 :nth-child(6){
+        margin-left: 20px;
+    }
+    .moto1{
+        display: flex;
+    }
+    
+    
+   .motopara ul{
+        margin-top: 20px;
+         margin-left: 50px;
+        
+
+    }
+    .motopara ul li{
+        opacity: .7;
+        list-style-type: circle;
+    }
+  .motopara p{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .motopara i{
+    margin-right: 10px;
+    color: rgb(197, 200, 206);
+
+
+  }
+ .motopara span{
+    background-color: rgb(35, 75, 30);
+    color: whitesmoke;
+    font-size: 11px;
+    border-radius: 3px;
+    padding-left: 5px;
+    
+ }
+ .motobill{
+    margin-left: 200px;
+    margin-top: 50px;
+ }
+ .motobill img{
+       margin-left: 30px;
+       
+ }
+ .motobill h2{
+    font-weight: 500;
+    font-size: 25px;
+ }
+ .motobill p{
+    opacity: .8;
+    font-size: 12px;
+ }
+ .motobill span{
+    color: green;
+ }
+
+    /*.moto2..*/
+
+    .header2{
+        background-color:rgb(250, 251, 252);
+        width: 100%;
+        height: 40px;display: flex;
+        justify-content: space-around;
+        font-size: 12px;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.089);
+        
+    }
+    .header2 div{
+        margin-top: 10px;
+        font-weight: 700;
+        opacity: .7;
+        
+    }
+
+    .content1{
+        background-color:rgb(250, 251, 252);
+        border: 1px solid rgba(128, 128, 128, 0.089);
+        margin-left: 10px;
+        margin-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+        width: 1220px;
+        padding-left: 10px;
+        padding-top: 10px;
+        
+    }
+    .content1 .sub1{
+        display: flex;
+        
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 10px;
+        background-color: rgb(250, 251, 252);
+    
+    }
+    .content1 .sub1 :nth-child(2){
+        margin-left: 20px;
+    }
+    .content1 .sub1 :nth-child(3){
+        margin-left: 20px;
+    }.content1 .sub1 :nth-child(4){
+        margin-left: 20px;
+    }.content1 .sub1 :nth-child(5){
+        margin-left: 20px;
+    }.content1 .sub1 :nth-child(6){
+        margin-left: 20px;
+    }
+    .moto1{
+        display: flex;
+    }
+    
+    
+   .motopara ul{
+        margin-top: 20px;
+         margin-left: 50px;
+        
+
+    }
+    .motopara ul li{
+        opacity: .7;
+        list-style-type: circle;
+    }
+  .motopara p{
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .motopara i{
+    margin-right: 10px;
+    color: rgb(197, 200, 206);
+
+
+  }
+ .motopara span{
+    background-color: rgb(35, 75, 30);
+    color: whitesmoke;
+    font-size: 11px;
+    border-radius: 3px;
+    padding-left: 5px;
+    
+ }
+ .motobill{
+    margin-left: 200px;
+    margin-top: 50px;
+ }
+ .motobill img{
+       margin-left: 30px;
+       
+ }
+ .motobill h2{
+    font-weight: 500;
+    font-size: 25px;
+ }
+ .motobill p{
+    opacity: .8;
+    font-size: 12px;
+ }
+ .motobill span{
+    color: green;
+ }
+
+
+
+
+    /*.moto2..*/
+    
+    /*.moto2..*/
+    
+    /*.moto2..*/
+.header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #1692e6;
+}
+ .logo1 img{
+    width: 150px;
+    height: 80px;
+    margin-left: 130px;
+    margin-top: -20px;
+        
+}
+.logo1 a{
+    position: absolute;
+    bottom: 535px;
+    right: 1000px;
+    color: whitesmoke;
+    
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+}
+.logo1 a i{
+
+color: rgb(241, 245, 11);
+}
+.header  .searchbox1 input{
+     margin-top: 10px;
+     margin-left: 10px;
+     width: 400px;
+     height: 40px;
+     border: none;
+     outline: none;
+     border-radius: 2px;
+}
+.searchbox1 i{
+    position: absolute;
+    bottom: 540px;
+    left: 660px;
+    color: #4088fc;
+    
+}
+.searchbox2{
+    padding-left: 30px;
+}
+.header .logbtn1{
+   
+    margin-left: 30px;
+    margin-top: 15px;
+    
+}
+.logbtn1 button{
+    
+    width: 120px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.logbtn1 a{
+    color: #4088fc;
+}
+.header .bac1 {
+    margin-left: 30px;
+  margin-top: 18px;
+  
+}
+.bac1 a{
+    color: whitesmoke;
+    font-weight: 700;
+
+}
+.header .nav1 {
+    margin-left: 30px;
+    margin-top: 18px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.header .nav1 a{
+    color: whitesmoke;
+}
+
+.header .cart1{
+    margin-left: 40px;
+    margin-top: 18px;
+    font-weight: 700;
+}
+.cart1 a{
+    color: whitesmoke;
+}
+.cart1 i{
+    color: whitesmoke;
+}
+
+
+
+</style>
+<body>
+    <div class="fullpage">
+    <div class="header">
+        <div class="logo1">
+         
+          <img src="/flipimages/flipkartlogo.jpg" alt="" >
+          <!-- <a href="">Explore Plus <i><i class="fa fa-plus" aria-hidden="true"></i></i></a> -->
+          
+        </div>
+        <div class="searchbox1">
+          <input type="search"  placeholder= "    Search for products,brands and more"   class="searchbox2">
+           <i class="fa fa-search" aria-hidden="true" ></i>
+        </div>
+       <div class="logbtn1">
+          <button ><a href="/flipcart tasks/flipkartlogin.html">Login</a></button>
+       </div>
+       <div class="bac1">
+       <a href="">Become a Seller</a>
+       </div>
+       <div class="nav1" >
+       <a href="#" >More <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+       </div>
+       <div class="cart1">
+       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+       <a href="">Cart</a></div>
+       </div>
+    </div>
+    
+     
+     
+            <div class="header2">
+                <div>Electronics <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                <div>TVs & Appliances <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                <div>Men <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                <div>Women <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                <div>Baby & Kids <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                <div>Home & Furniture <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                <div>Sports, Books & More <i class="fa fa-angle-down" aria-hidden="true"></i></div>
+                <div>Flights</div>
+                <div>Offer Zone</div>
+             </div>
+          
+    </div>
+
+
+      <div class="content1">
+        Showing 1-4 of 4 Results of"motog60"
+        <div class="sub1"> 
+         <div>Sort By</div>
+         <div>Relevance</div>
+         <div>Popularity</div>
+         <div>Price--Low to High</div>
+         <div>Price--High to Low</div>
+         <div>Newest First</div>
+        </div> 
+         <br>
+         <hr color= gray style="opacity: .2;">
+        
+
+
+
+        <div class="sub2">
+          <div class="moto1">
+            <div class="motoimg">
+                <img src="/flipimages/lap3.jpg" alt=""> <br>
+                 <p></p> <input type="checkbox" name="cb" id=""> Add to compare</p>
+            </div>
+             
+            
+            
+            <div class="motopara">
+                <p><i class="fa fa-heart" aria-hidden="true"></i>  MSI Modern 14 Core i7 11th Gen - (8 GB/512 GB SSD/Windows 10 Home) Modern 14 B11MOU-473IN Notebook  (14 inch, Carbon Grey, 1.3 Kg)</p>
+             <ul > 
+                <span>  4.2    <i class="fa fa-star" aria-hidden="true"></i></span> 
+                <li>intel core i7 11th Gen</li>
+                <li>Light Laptop without Optical Disk Drive</li>
+                <li>14 inch Full HD Display (60Hz, 45%NTSC, IPS-Level)</li>
+                <li>No cost EMI starting from ₹10,767/month</li>
+                <li>Net banking & Credit/ Debit/ ATM card</li>
+                <li>Modern 14</li>
+                <li>8 GB RAM & 512 ROM</li>
+                
+             </ul> 
+            </div>
+
+            <div class="motobill">
+                  <h2>&#8377 49,999 <img src="/flipimages/asslogo.jpg" alt="" width="100px"></h2>
+                 <p> <del>&#8377 69,999</del>   <span>31% off</span></p>
+                 <p>Free delivery</p>
+                 <p>upto &#8377 14,000 Off on Exchange</p>
+                 <span>Bank Offer</span>
+                </div>
+           </div>
+        </div>
+<br>
+       <hr>
+
+     <br>
+        <div class="sub2">
+            <div class="moto1">
+              <div class="motoimg">
+                  <img src="/flipimages/lap4.jpg" alt=""> <br>
+                   <p></p> <input type="checkbox" name="cb" id=""> Add to compare</p>
+              </div>
+               
+              
+              
+              <div class="motopara">
+                  <p><i class="fa fa-heart" aria-hidden="true"></i>    MSI Modern 14 Core i7 11th Gen - (8 GB/512 GB SSD/Windows 10 Home) Modern 14 B11MOU-473IN Notebook  (14 inch, White, 1.3 Kg)</p>
+               <ul > 
+                  <span>  4.2    <i class="fa fa-star" aria-hidden="true"></i></span> 
+                  <li>intel core i7 11th Gen</li>
+                  <li>Light Laptop without Optical Disk Drive</li>
+                  <li>14 inch Full HD Display (60Hz, 45%NTSC, IPS-Level)</li>
+                  <li>No cost EMI starting from ₹10,767/month</li>
+                  <li>Net banking & Credit/ Debit/ ATM card</li>
+                  <li>Modern 14</li>
+                  <li>8 GB RAM & 512 ROM</li>
+                  
+               </ul> 
+              </div>
+  
+              <div class="motobill">
+                    <h2>&#8377 49,999 <img src="/flipimages/asslogo.jpg" alt="" width="100px"></h2>
+                   <p> <del>  &#8377 69,999</del>  <span>31% off</span></p>
+                   <p>Free delivery</p>
+                   <p>upto &#8377 14,000 Off on Exchange</p>
+                   <span>Bank Offer</span>
+                  </div>
+             </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+    
+</div>
+    
+
+</body>
+</html>

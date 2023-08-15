@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .header1{
+    display: flex;
+    
+    height: 60px;
+    width: 1240px;
+    background-color: #1692e6;
+}
+ .logo1 img{
+    width: 150px;
+    height: 80px;
+    margin-left: 130px;
+    margin-top: -20px;
+        
+}
+.logo1 a{
+    position: absolute;
+    bottom: 533px;
+    right: 1000px;
+    color: whitesmoke;
+    
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+}
+.logo1 a i{
+
+color: rgb(241, 245, 11);
+}
+.header1  .searchbox1 input{
+     margin-top: 10px;
+     margin-left: 10px;
+     width: 400px;
+     height: 40px;
+     border: none;
+     outline: none;
+     border-radius: 2px;
+}
+.searchbox1 i{
+    position: absolute;
+    bottom: 543px;
+    left: 660px;
+    color: #4088fc;
+    
+}
+.searchbox2{
+    padding-left: 30px;
+}
+.header1 .logbtn1{
+   
+    margin-left: 30px;
+    margin-top: 15px;
+    
+}
+.logbtn1 button{
+    
+    width: 120px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.logbtn1 a{
+    color: #4088fc;
+}
+.header1 .bac1 {
+    margin-left: 30px;
+  margin-top: 18px;
+  
+}
+.bac1 a{
+    color: whitesmoke;
+    font-weight: 700;
+
+}
+.header1 .nav1{
+    margin-left: 30px;
+    margin-top: 18px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.header1 .cart1{
+    margin-left: 40px;
+    margin-top: 18px;
+    font-weight: 700;
+}
+.cart1 a{
+    color: whitesmoke;
+}
+.cart1 i{
+    color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+    header{
+        display: flex;
+        margin-left: 200px;
+        margin-top: 10px;
+        width: 950px;
+        height:600px ;
+    }
+    .container1{
+        background-color: #4088fc;
+         height: 500px;
+         width: 250px;
+    }
+    .container2{
+        background-color: rgb(249, 251, 252);
+        height: 500px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .container1 img{
+      
+        width:150px ;
+        height: 150px;
+        margin-top: 140px;
+        margin-left: 49px;
+    }
+    .container1 p{
+        margin-top: 60px;
+        margin-left: 50px;
+        color: whitesmoke;
+        font-size: 16px;
+        font-weight: 400;
+    }.container1 span{
+        font-size:25px ;
+        font-weight: 700;
+        margin-left: px;
+    }
+   .laplogo{
+    margin-bottom: 20px;
+   }
+   input{
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border: none;
+    border-bottom:1px solid lightgray;
+   }
+   .container2 .mno{
+    margin-top: 30px;
+    margin-left: 30px;
+
+   }
+   .container2 .password{
+    margin-top: 40px;
+    margin-left: 30px;
+
+   } 
+   input:hover{
+    border-bottom: 1px solid black;
+   }
+  .container2 span{
+    color: #4088fc;
+  }
+  .container2 .span1{
+     margin-left: 280px;
+  }
+  .container2 p{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 12px;
+  }
+  .container2 .logbtn{
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(245, 141, 23);
+    color: whitesmoke;
+    font-weight: 600;
+  }
+  .container2 .or{
+    margin-left: 170px;
+  }
+  .container2 .reqbtn{
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: none;
+    color: #4088fc;
+    font-weight: 600;
+    background-color: rgb(255, 253, 251);
+    box-shadow: 0px 1px 5px rgb(118, 150, 139);
+  }
+  .container2 span a{
+    text-decoration: none;
+    margin-left: 60px;
+    color: #4088fc;
+  }
+</style>
+<body style="background-color:whitesmoke ;">
+  <div class="header1">
+    <div class="logo1">
+     
+      <img src="/flipimages/flipkartlogo.jpg" alt="" >
+      <a href="">Explore Plus <i><i class="fa fa-plus" aria-hidden="true"></i></i></a>
+      
+  </div>
+  <div class="searchbox1">
+      <input type="search"  placeholder= "    Search for products,brands and more" class="searchbox2" >
+       <i class="fa fa-search" aria-hidden="true" ></i>
+  </div>
+  <div class="logbtn1">
+      <button ><a href="/flipcart tasks/flipkartlogin.html">Login</a></button>
+  </div>
+ <div class="bac1">
+  <a href="">Become a Seller</a>
+ </div>
+ <div class="nav1">
+  <nav>
+      <ul><li>More  <i class="fa fa-angle-down" aria-hidden="true"></i></li></ul>
+  </nav>
+ </div>
+ <div class="cart1">
+   <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+  <a href="">Cart</a></div>
+  </div>
+  
+
+
+
+    <header>
+    <div class="container1">
+        <a href="1"></a>
+        <p>
+           <span>Login</span> <br>  <br>
+            
+           Get access to your  <br>   Orders,     Wishlist and Recommendations</p>
+          
+           <img src="/flipimages/favicon.png" alt="" >
+    </div>
+    <div class="container2">
+    <input type="number"  class="mno"  placeholder="Enter Mobile Number"  >
+    <input type="password"  class="password"  placeholder="Enter Password"> <br><span class="span1">Forgot?</span>
+    <p>   By continuing, you agree to Flipkart's <span>Terms of Use </span>and <span>Privacy Policy</span>   
+   </p>
+   <button type="submit" class="logbtn">Login</button>
+    <p class="or">   OR</p>
+<button type="submit" class="reqbtn">Request OTP</button>
+ <br><span><a href="1">New to Flipkart? Create an account</a></span>
+</header>
+</div>
+</body>
+</html>

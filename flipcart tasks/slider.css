@@ -1,0 +1,60 @@
+.slider{
+    height: 300px;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(248, 247, 247);
+    margin-top: 110px;
+    margin-left: 170px;
+}
+.slider1{
+    position: relative;
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+}
+.sliderads{
+    display: flex;
+    width: 200px;
+    
+
+}
+.sliderads img{
+    height: 200px;
+    width: 1000px;
+    
+     transition: all 0.15s ease;
+}
+.sliderads input{
+    display: none;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid rgb(113, 205, 241) 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover{
+    background:rgb(113, 205, 241);
+}
+#img1:checked ~ .ad1{
+    margin-left: 0;
+}
+#img2:checked ~ .ad2{
+    margin-left: -800px;
+}
+#img3:checked ~ .ad3{
+    margin-left: -2000px;
+}
+#img4:checked ~ .ad4{
+    margin-left: -3000pxx;
+}

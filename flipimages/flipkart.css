@@ -1,0 +1,2536 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    display: flex;
+    
+    height: 60px;
+    width: 100%;
+    background-color: #1692e6;
+}
+ .logo1 img{
+    width: 150px;
+    height: 80px;
+    margin-left: 130px;
+    margin-top: -20px;
+        
+}
+.logo1 a{
+    position: absolute;
+    bottom: 533px;
+    right: 1000px;
+    color: whitesmoke;
+    
+    font-style: italic;
+    font-weight: 500;
+    font-size: 12px;
+}
+.logo1 a i{
+
+color: rgb(241, 245, 11);
+}
+.header  .searchbox1 input{
+     margin-top: 10px;
+     margin-left: 10px;
+     width: 400px;
+     height: 40px;
+     border: none;
+     outline: none;
+     border-radius: 2px;
+}
+.searchbox1 i{
+    position: absolute;
+    bottom: 543px;
+    left: 660px;
+    color: #4088fc;
+    
+}
+.header .logbtn1{
+   
+    margin-left: 30px;
+    margin-top: 15px;
+    
+}
+.logbtn1 button{
+    
+    width: 120px;
+    height: 30px;
+
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+.logbtn1 a{
+    color: #4088fc;
+}
+.header .bac1 {
+    margin-left: 30px;
+  margin-top: 18px;
+  
+}
+.bac1 a{
+    color: whitesmoke;
+    font-weight: 700;
+
+}
+.header .nav1 {
+    margin-left: 30px;
+    margin-top: 18px;
+    color: whitesmoke;
+    font-weight: 700;
+}
+.header .nav1 a{
+    color: whitesmoke;
+}
+
+.header .cart1{
+    margin-left: 40px;
+    margin-top: 18px;
+    font-weight: 700;
+}
+.cart1 a{
+    color: whitesmoke;
+}
+.cart1 i{
+    color: whitesmoke;
+}
+img{
+    width: 60px;
+    height: 50px;
+    
+}
+.header1  {
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    
+    
+}
+.header1 a{
+    color: black;
+}
+
+
+.grocery {
+     margin-left: 60px;
+     margin-top: 20px;
+}
+.grocery a:hover{
+    color: blue;
+}
+.mobiles1{
+     margin-top: 20px;
+     margin-left: 50px;
+}
+.mobiles1 a:hover{
+    color: blue;
+}
+.grocery a:hover{
+    color: blue;
+}
+.fashion2{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.fashion2 a:hover{
+    color: blue;
+}
+.fashion3{
+    display: none;
+}
+.header1 .fashion2:nth-child(3):hover .fashion3{
+    display: block;
+    position: absolute;
+}
+.ele2{
+    margin-top: 20px;
+    margin-left: 50px;
+}.ele2 a:hover{
+    color: blue;
+}
+.home2{
+    margin-top: 20px;
+    margin-left: 50px;
+}.home2 a:hover{
+    color: blue;
+}
+.toy2{
+    margin-top: 20px;
+    margin-left: 60px;
+} .toy2 a:hover{
+    color: blue;
+}
+
+.app2{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.app2 a:hover{
+    color: blue;
+}
+.travel2{
+    margin-top: 20px; 
+    margin-left: 50px;
+
+}
+.travel2 a:hover{
+    color: blue;
+}
+.offers2{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.offers2 a:hover{
+    color: blue;
+}
+.bikes1{
+   
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.bikes1 a:hover{
+    color: blue;
+}
+
+
+.adsimage{
+ 
+    width: 100%;
+    overflow: hidden;
+    
+
+    
+   }
+   .slider{
+    display: flex;
+    position: relative;
+    animation: slider ;
+    animation-duration: 15s;
+    
+    animation-iteration-count: infinite;
+    width: 300%;
+}
+.sliderdot{
+    text-align: center;
+}
+.sliderdot i{
+    color: #070707;
+    
+}
+
+.sliderdot i:hover{
+    color: #3176e6;
+   
+}
+.slider img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+
+@keyframes slider{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+     21%{
+        left: -100%;
+    }
+     40%{
+        left: -100%;
+    }
+    41%{
+        left: -200%;
+    }
+    60%{
+         left: -200%;
+    }
+    61%{
+        left: -100%;
+    }
+    80%{
+        left: -100%;
+    } 
+    81%{
+        left: 0%;
+    } 
+    100%{
+        left: 0%;
+    }
+}
+
+
+
+.firstbox1{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 230px;
+    height: 330px;
+    
+}
+.firstbox1 .p1{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+}
+.firstbox1 .p2{
+    font-size: 25px;
+    margin-left: 30px;
+    
+    
+    
+}
+.firstbox1 button{
+   margin-left: 50px;
+   margin-top: 30px;
+   width: 80px;
+   height: 30px;
+   color: whitesmoke;
+   font-size: 12px;
+   border: none;
+   outline: none;
+ 
+   background-color: #3176e6;
+}
+.firstbox1 img{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 210px;
+    height: 160px;
+    
+}
+.header2{
+    display: flex;
+}
+.header2 span{
+    color: green;
+    margin-left: 70px;
+}
+.producta1{
+    padding-left: 30px;
+    padding-top: 70px;
+}
+ .producta1 img{
+  width: 220px;
+  height: 150px;
+  
+}
+.producta1 p{
+    font-size: 12px;
+    margin-left: 50px;
+}
+ 
+/*....*/
+
+.secondbox1{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 230px;
+    height: 330px;
+    
+}
+.secondbox1 .p1{
+    font-size: 25px;
+    margin-left: 35px;
+    margin-top: 20px;
+    
+    
+}
+.secondbox1 .p2{
+    font-size: 25px;
+    margin-left: 20px;
+    
+    
+    
+}
+.secondbox1 button{
+   margin-left: 50px;
+   margin-top: 30px;
+   width: 80px;
+   height: 30px;
+   color: whitesmoke;
+   font-size: 12px;
+   border: none;
+   outline: none;
+ 
+   background-color: #3176e6;
+}
+.secondbox1 img{
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 210px;
+    height: 160px;
+    
+}
+.header4{
+    display: flex;
+    
+}
+.header4 span{
+    color: green;
+    margin-left: 70px;
+}
+.productb1{
+    padding-left: 30px;
+    padding-top: 90px;
+}
+ .productb1 img{
+  width: 220px;
+  height: 150px;
+  
+}
+.productb1 p{
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+/*...*/
+
+.thirdbox1{
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 210px;
+    height: 330px;
+    
+}
+.thirdbox1 .p1{
+    font-size: 25px;
+    margin-left: 55px;
+    
+    
+}
+.thirdbox1 .p2{
+    font-size: 25px;
+    margin-left: 40px;
+    
+    
+    
+}
+.thirdbox1 button{
+   margin-left: 50px;
+   margin-top: 30px;
+   width: 80px;
+   height: 30px;
+   color: whitesmoke;
+   font-size: 12px;
+   border: none;
+   outline: none;
+ 
+   background-color: #3176e6;
+}
+.thirdbox1 img{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 210px;
+    height: 120px;
+    
+}
+.header5{
+    display: flex;
+    
+}
+.header5 span{
+    color: green;
+    margin-left: 60px;
+}
+.productc1{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+ .productc1 img{
+  width: 220px;
+  height: 150px;
+  margin-top: 100px;
+}
+.productc1 .jack1{
+    width: 200px;
+
+    
+}
+.productc1 p{
+    font-size: 12px;
+    margin-left: 60px;
+}
+
+
+
+/*...*/
+
+
+.fourthbox1{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 230px;
+    height: 330px;
+    
+}
+.fourthbox1 .p1{
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 20px;
+    
+    
+}
+
+.fourthbox1 button{
+   margin-left: 50px;
+   margin-top: 50px;
+   width: 80px;
+   height: 30px;
+   color: whitesmoke;
+   font-size: 12px;
+   border: none;
+   outline: none;
+ 
+   background-color: #3176e6;
+}
+.fourthbox1 img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    
+}
+.header6{
+    display: flex;
+}
+.header6 span{
+    color: green;
+    margin-left: 70px;
+}
+.productd1{
+    padding-left: 30px;
+    padding-top: 70px;
+}
+ .productd1 img{
+  width: 200px;
+  height: 150px;
+  margin-right: 20px;
+  
+}
+.productd1 p{
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+/*...*/
+
+
+
+
+
+.fifthbox1{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 230px;
+    height: 330px;
+    
+}
+.fifthbox1 .p1{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+}
+.fifthbox1 .p2{
+    font-size: 25px;
+    margin-left: 30px;
+    
+    
+    
+}
+.fifthbox1 button{
+   margin-left: 50px;
+   margin-top: 30px;
+   width: 80px;
+   height: 30px;
+   color: whitesmoke;
+   font-size: 12px;
+   border: none;
+   outline: none;
+ 
+   background-color: #3176e6;
+}
+.fifthbox1 img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 180px;
+    height: 180px;
+    
+}
+.header7{
+    display: flex;
+}
+.header7 span{
+    color: green;
+    margin-left: 30px;
+}
+.producte1{
+    padding-left: 30px;
+    padding-top: 70px;
+}
+
+ .producte1 img{
+  width: 200px;
+  height: 120px;
+  
+}
+
+.producte1 p{
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+/*...*/
+.lastdetails{
+    width: 98%;
+    height: 100%;
+    margin-left: 10px;
+    background-color: rgb(230, 238, 223);
+}
+.lastone{
+ padding-top: 20px;
+ padding-left: 20px;
+ font-size: 11px;
+}
+.lastone h4{
+    opacity: .5;
+}
+.lastone h5{
+    opacity: .5;
+}
+.lasttwo{
+    padding-top: 20px;
+ padding-left: 20px;
+ font-size: 11px; 
+ 
+}
+.lasttwo h2{
+    opacity: .5;
+}
+.lasttwo h3{
+    opacity: .5;
+}
+.lastbox{
+    width: 98%;
+    height: 370px;
+    margin-left: 10px;
+    
+    background-color: rgb(43, 43, 65);
+    color: whitesmokes;
+}
+.bluebox {
+    color: whitesmoke;
+    display: flex;
+    font-size: 13px;
+    
+
+}
+
+.bluebox ul{
+    color: whitesmoke;
+    font-size: 11px;
+    margin-top: 50px;
+    opacity: .7;
+    margin-left: 50px;
+    
+}
+.bluebox .lads1{
+    margin-top: 50px;   
+    margin-left: 80px;
+    font-size: 11px;
+    opacity: .7;
+}
+.bluebox .lads1 span{
+    font-size: 13px;
+}
+.lastlogo ul {
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 13px;
+}
+.lastlogo ul i{
+    color: rgb(173, 157, 6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.....1st 1024px. 2nd1248  801.. 3..1844 600. .*/
+
+
+@media (max-width:1024px){
+       
+.header{
+    width: 100%;
+    height: 50px;
+
+}
+.logo1 img{
+    width: 120px;
+    height: 60px;
+    margin-left: 40px;
+    margin-top: -10px;
+        
+}
+
+    
+.header  .searchbox1 input{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 300px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+.header .logbtn1{
+   
+    margin-left: 30px;
+    margin-top: 14px;
+    
+}
+.logbtn1 button{
+    color: #4088fc;
+    width: 80px;
+    height: 23px;
+    background-color: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-weight: 500;
+    font-size: 14px;
+   
+}
+.header .bac1 {
+    margin-left: 40px;
+  margin-top: 15px;
+  
+}
+.bac1 a{
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.header .nav1{
+    margin-left: 40px;
+    margin-top: 15px;
+    color: whitesmoke;
+    font-weight: 500;
+}
+.header .cart1{
+    margin-left: 40px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.cart1 a{
+    color: whitesmoke;
+}
+.cart1 i{
+    color: whitesmoke;
+}
+img{
+    width: 60px;
+    height: 50px;
+    
+}
+.header1  {
+    display: flex;
+    font-size: 14px;
+    font-weight: 600;
+    
+    
+}
+.header1 a{
+    color: black;
+}
+
+.grocery {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.mobiles1{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.fashion2{
+   margin-top: 20px;
+   margin-left: 30px;
+}
+.ele2{
+   margin-top: 20px;
+   margin-left: 30px;
+}
+.home2{
+   margin-top: 20px;
+   margin-left: 30px;
+}
+.toy2{
+   margin-top: 20px;
+   margin-left: 30px;
+}
+.app2{
+   margin-top: 20px;
+   margin-left: 30px;
+}
+.travel2{
+   margin-top: 20px; 
+   margin-left: 30px;
+
+}
+.offers2{
+   margin-top: 20px;
+   margin-left: 30px;
+}
+.bikes1{
+  
+   margin-top: 20px;
+   margin-left: 30px;
+}
+
+
+/**8*/
+.adsimage{
+ 
+    width: 100%;
+    overflow: hidden;
+
+    
+   }
+   .slider{
+    display: flex;
+    position: relative;
+    animation: slider ;
+    animation-duration: 15s;
+    
+    animation-iteration-count: infinite;
+    width: 300%;
+}
+.slider img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+
+@keyframes slider{
+    0%{
+        left: -0%;
+    }
+    20%{
+        left: 0%;
+    }
+     21%{
+        left: -130%;
+    }
+     40%{
+        left: -130%;
+    }
+    41%{
+        left: -260%;
+    }
+    60%{
+         left: -260%;
+    }
+    61%{
+        left: -130%;
+    }
+    80%{
+        left: -130%;
+    } 
+    81%{
+        left: 0%;
+    } 100%{
+        left: 0%;
+    }
+}
+/*...*/
+.firstbox1{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 180px;
+    height: 280px;
+    
+}
+.firstbox1 .p1{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+}
+.firstbox1 .p2{
+    font-size: 20px;
+    margin-left: 30px;
+    
+    
+    
+}
+.firstbox1 button{
+   margin-left: 40px;
+   margin-top: 30px;
+   width: 60px;
+   height: 25px;
+   color: whitesmoke;
+   font-size: 11px;
+   border: none;
+   outline: none;
+ 
+   background-color: #3176e6;
+}
+.firstbox1 img{
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 180px;
+    height: 140px;
+    
+}
+.header2{
+    display: flex;
+}
+.header2 span{
+    color: green;
+    margin-left: 70px;
+}
+.producta1{
+    padding-left: 30px;
+    padding-top: 70px;
+}
+ .producta1 img{
+  width: 160px;
+  height: 130px;
+  
+}
+.producta1 p{
+    font-size: 12px;
+    margin-left: 50px;
+}
+ 
+/*....*/
+
+.secondbox1{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 180px;
+    height: 180px;
+    
+}
+.secondbox1 .p1{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+}
+.secondbox1 .p2{
+    font-size: 20px;
+    margin-left: 30px;
+    
+    
+    
+}
+.secondbox1 button{
+   margin-left: 40px;
+   margin-top: 30px;
+   width: 60px;
+   height: 25px;
+   color: whitesmoke;
+   font-size: 11px;
+   border: none;
+   outline: none;
+ 
+   background-color: #3176e6;
+}
+.secondbox1 img{
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 180px;
+    height: 140px;
+    
+}
+.header4{
+    display: flex;
+    
+}
+.header4 span{
+    color: green;
+    margin-left: 70px;
+}
+.productb1{
+    padding-left: 30px;
+    padding-top: 70px;
+}
+ .productb1 img{
+  width: 160px;
+  height: 130px;
+  
+}
+.productb1 p{
+    font-size: 12px;
+    margin-left: 50px;
+}
+
+/*...*/
+
+.thirdbox1{
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 180px;
+    height: 280px;
+    
+}
+.thirdbox1 .p1{
+    font-size: 20px;
+    margin-left: 50px;
+    
+    
+}
+.thirdbox1 .p2{
+    font-size: 20px;
+    margin-left: 30px;
+}
+.thirdbox1 button{
+   margin-left: 40px;
+   margin-top: 30px;
+   width: 60px;
+   height: 25px;
+   color: whitesmoke;
+   font-size: 11px;
+   border: none;
+   outline: none;
+ 
+   background-color: #3176e6;
+}
+.thirdbox1 img{
+    margin-top: 30px;
+    margin-left: 15px;
+    width: 180px;
+    height: 140px;
+    
+}
+.header5{
+    display: flex;
+    
+}
+.header5 span{
+    color: green;
+    margin-left: 70px;
+}
+.productc1{
+    padding-left: 30px;
+    padding-top: 70px;
+}
+ .productc1 img{
+  width: 150px;
+  height: 120px;
+  margin-top: 20px;
+}
+.productc1 .jack1{
+    width: 200px;
+    height: 200PX;
+    
+    
+}
+.productc1 p{
+    font-size: 12px;
+    margin-left: 60px;
+}
+
+
+
+/*...*/
+
+
+.fourthbox1{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 180px;
+    height: 280px;
+    
+}
+.fourthbox1 .p1{
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+    
+    
+}
+
+.fourthbox1 button{
+   margin-left: 40px;
+   margin-top: 30px;
+   width: 60px;
+   height: 25px;
+   color: whitesmoke;
+   font-size: 11px;
+   border: none;
+   outline: none;
+ 
+   background-color: #3176e6;
+}
+.fourthbox1 img{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 180px;
+    height: 140px;
+    
+}
+.header6{
+    display: flex;
+}
+.header6 span{
+    color: green;
+    margin-left: 70px;
+}
+.productd1{
+    padding-left: 30px;
+    padding-top: 70px;
+}
+ .productd1 img{
+  width: 160px;
+  height: 130px;
+  margin-right: 20px;
+  
+}
+.productd1 p{
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+
+
+
+
+.fifthbox1{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 180px;
+    height: 280px;
+    
+}
+.fifthbox1 .p1{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    
+}
+.fifthbox1 .p2{
+    font-size: 20px;
+    margin-left: 30px;
+    
+    
+    
+}
+.fifthbox1 button{
+   margin-left: 40px;
+   margin-top: 30px;
+   width: 60px;
+   height: 25px;
+   color: whitesmoke;
+   font-size: 11px;
+   border: none;
+   outline: none;
+ 
+   background-color: #3176e6;
+}
+.fifthbox1 img{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 180px;
+    height: 140px;
+    
+}
+.header7{
+    display: flex;
+}
+.header7 span{
+    color: green;
+    margin-left: 30px;
+}
+.producte1{
+    padding-left: 30px;
+    padding-top: 70px;
+}
+
+ .producte1 img{
+  width: 160px;
+  height: 130px;
+  
+}
+
+.producte1 p{
+    font-size: 12px;
+    margin-left: 30px;
+}
+
+/*...*/
+.lastdetails{
+    width: 98%;
+    height: 100%;
+    margin-left: 10px;
+    background-color: rgb(230, 238, 223);
+}
+.lastone{
+ padding-top: 20px;
+ padding-left: 20px;
+ font-size: 11px;
+}
+.lastone h4{
+    opacity: .5;
+}
+.lastone h5{
+    opacity: .5;
+}
+.lasttwo{
+    padding-top: 20px;
+ padding-left: 20px;
+ font-size: 11px; 
+ 
+}
+.lasttwo h2{
+    opacity: .5;
+}
+.lasttwo h3{
+    opacity: .5;
+}
+.lastbox{
+    width: 98%;
+    height: 420px;
+    margin-left: 10px;
+    
+    background-color: rgb(43, 43, 65);
+    color: whitesmokes;
+}
+.bluebox {
+    color: whitesmoke;
+    display: flex;
+    font-size: 13px;
+    
+
+}
+
+.bluebox ul{
+    color: whitesmoke;
+    font-size: 11px;
+    margin-top: 50px;
+    opacity: .7;
+    margin-left: 50px;
+    
+}
+.bluebox .lads1{
+    margin-top: 50px;   
+    margin-left: 80px;
+    font-size: 11px;
+    opacity: .7;
+}
+.bluebox .lads1 span{
+    font-size: 13px;
+}
+.lastlogo ul {
+    display: flex;
+    color: whitesmoke;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-size: 13px;
+}
+.lastlogo ul i{
+    color: rgb(173, 157, 6);
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*....801px..  last 600.  1848*/
+@media (max-width:801px){
+       
+    .header{
+        width: 100%;
+        height: 60px;
+    
+    }
+    .logo1 img{
+        width: 80px;
+        height: 50px;
+        margin-left: 50px;
+        margin-top: 3px;
+            
+    }
+    *
+        
+    .header  .searchbox1 input{
+        margin-top: 15px;
+        margin-left: 10px;
+        width: 300px;
+        height: 30px;
+        border: none;
+        outline: none;
+        border-radius: 2px;
+    }
+    .header .logbtn1{
+       
+        margin-left: 30px;
+        margin-top: 20px;
+        
+    }
+    .logbtn1 button{
+        color: #4088fc;
+        width: 80px;
+        height: 23px;
+        background-color: whitesmoke;
+        border: none;
+        outline: none;
+        border-radius: 2px;
+        font-weight: 500;
+        font-size: 14px;
+       
+    }
+    .header .bac1 {
+        margin-left: 40px;
+      margin-top: 20px;
+      
+    }
+    .bac1 a{
+        color: whitesmoke;
+        font-weight: 500;
+        font-size: 16px;
+    
+    }
+    .header .nav1{
+        margin-left: 40px;
+        margin-top: 20px;
+        color: whitesmoke;
+        font-weight: 500;
+    }
+    .header .cart1{
+        margin-left: 40px;
+        margin-top: 20px;
+        font-weight: 500;
+    }
+    .cart1 a{
+        color: whitesmoke;
+    }
+    .cart1 i{
+        color: whitesmoke;
+    }
+    img{
+        width: 50px;
+        height: 40px;
+        
+    }
+    .header1  {
+        display: flex;
+        font-size: 14px;
+        font-weight: 500;
+        
+        
+    }
+    .header1 a{
+        color: black;
+    }
+    
+    .grocery {
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .mobiles1{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .fashion2{
+       margin-top: 20px;
+       margin-left: 30px;
+    }
+    .ele2{
+       margin-top: 20px;
+       margin-left: 30px;
+    }
+    .home2{
+       margin-top: 20px;
+       margin-left: 30px;
+    }
+    .toy2{
+       margin-top: 20px;
+       margin-left: 30px;
+    }
+    .app2{
+       margin-top: 20px;
+       margin-left: 30px;
+    }
+    .travel2{
+       margin-top: 20px; 
+       margin-left: 30px;
+    
+    }
+    .offers2{
+       margin-top: 20px;
+       margin-left: 30px;
+    }
+    .bikes1{
+      
+       margin-top: 20px;
+       margin-left: 30px;
+    }
+    
+    
+    
+    .adsimage{
+     
+        width: 100%;
+        overflow: hidden;
+    
+        
+       }
+       .slider{
+        display: flex;
+        position: relative;
+        animation: slider ;
+        animation-duration: 15s;
+        
+        animation-iteration-count: infinite;
+        width: 300%;
+    }
+    .slider img{
+        width: 100%;
+        height: 200px;
+        
+    }
+    
+    
+    @keyframes slider{
+        0%{
+            left: -0%;
+        }
+        20%{
+            left: 0%;
+        }
+         21%{
+            left: -130%;
+        }
+         40%{
+            left: -130%;
+        }
+        41%{
+            left: -260%;
+        }
+        60%{
+             left: -260%;
+        }
+        61%{
+            left: -130%;
+        }
+        80%{
+            left: -130%;
+        } 
+        81%{
+            left: 0%;
+        } 100%{
+            left: 0%;
+        }
+    }
+    
+    .firstbox1{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 180px;
+        height: 280px;
+        
+    }
+    .firstbox1 .p1{
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 20px;
+        
+        
+    }
+    .firstbox1 .p2{
+        font-size: 20px;
+        margin-left: 30px;
+        
+        
+        
+    }
+    .firstbox1 button{
+       margin-left: 40px;
+       margin-top: 30px;
+       width: 60px;
+       height: 25px;
+       color: whitesmoke;
+       font-size: 11px;
+       border: none;
+       outline: none;
+     
+       background-color: #3176e6;
+    }
+    .firstbox1 img{
+        margin-top: 30px;
+        margin-left: 15px;
+        width: 180px;
+        height: 140px;
+        
+    }
+    .header2{
+        display: flex;
+    }
+    .header2 span{
+        color: green;
+        margin-left: 70px;
+    }
+    .producta1{
+        padding-left: 30px;
+        padding-top: 70px;
+    }
+     .producta1 img{
+      width: 160px;
+      height: 130px;
+      
+    }
+    .producta1 p{
+        font-size: 12px;
+        margin-left: 50px;
+    }
+     
+    
+    
+    .secondbox1{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 180px;
+        height: 180px;
+        
+    }
+    .secondbox1 .p1{
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 20px;
+        
+        
+    }
+    .secondbox1 .p2{
+        font-size: 20px;
+        margin-left: 30px;
+        
+        
+        
+    }
+    .secondbox1 button{
+       margin-left: 40px;
+       margin-top: 30px;
+       width: 60px;
+       height: 25px;
+       color: whitesmoke;
+       font-size: 11px;
+       border: none;
+       outline: none;
+     
+       background-color: #3176e6;
+    }
+    .secondbox1 img{
+        margin-top: 30px;
+        margin-left: 15px;
+        width: 180px;
+        height: 140px;
+        
+    }
+    .header4{
+        display: flex;
+        
+    }
+    .header4 span{
+        color: green;
+        margin-left: 70px;
+    }
+    .productb1{
+        padding-left: 30px;
+        padding-top: 70px;
+    }
+     .productb1 img{
+      width: 160px;
+      height: 130px;
+      
+    }
+    .productb1 p{
+        font-size: 12px;
+        margin-left: 50px;
+    }
+    
+    
+    
+    .thirdbox1{
+        margin-top: 40px;
+        margin-left: 10px;
+        width: 180px;
+        height: 280px;
+        
+    }
+    .thirdbox1 .p1{
+        font-size: 20px;
+        margin-left: 50px;
+        
+        
+    }
+    .thirdbox1 .p2{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .thirdbox1 button{
+       margin-left: 40px;
+       margin-top: 30px;
+       width: 60px;
+       height: 25px;
+       color: whitesmoke;
+       font-size: 11px;
+       border: none;
+       outline: none;
+     
+       background-color: #3176e6;
+    }
+    .thirdbox1 img{
+        margin-top: 30px;
+        margin-left: 10px;
+        width: 160px;
+        height: 130px;
+        
+    }
+    .header5{
+        display: flex;
+        
+    }
+    .header5 span{
+        color: green;
+        margin-left: 50px;
+    }
+    .productc1{
+        padding-left: 30px;
+        padding-top: 70px;
+    }
+     .productc1 img{
+      width: 150px;
+      height: 120px;
+      margin-top: 20px;
+    }
+    .productc1 .jack1{
+        width: 150px;
+        height: 200PX;
+        
+        
+    }
+    .productc1 p{
+        font-size: 12px;
+        margin-left: 60px;
+    }
+    
+    
+    
+    
+    
+    
+    .fourthbox1{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 180px;
+        height: 280px;
+        
+    }
+    .fourthbox1 .p1{
+        font-size: 20px;
+        margin-left: 30px;
+        margin-top: 10px;
+        
+        
+    }
+    
+    .fourthbox1 button{
+       margin-left: 40px;
+       margin-top: 30px;
+       width: 60px;
+       height: 25px;
+       color: whitesmoke;
+       font-size: 11px;
+       border: none;
+       outline: none;
+     
+       background-color: #3176e6;
+    }
+    .fourthbox1 img{
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 150px;
+        height: 120px;
+        
+    }
+    .header6{
+        display: flex;
+    }
+    .header6 span{
+        color: green;
+        margin-left: 30px;
+    }
+    .productd1{
+        padding-left: 30px;
+        padding-top: 70px;
+    }
+     .productd1 img{
+      width: 150px;
+      height: 120px;
+      margin-right: 20px;
+      
+    }
+    .productd1 p{
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    
+
+    
+    
+    
+    
+    .fifthbox1{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 180px;
+        height: 280px;
+        
+    }
+    .fifthbox1 .p1{
+        font-size: 20px;
+        margin-left: 50px;
+        margin-top: 20px;
+        
+        
+    }
+    .fifthbox1 .p2{
+        font-size: 20px;
+        margin-left: 30px;
+        
+        
+        
+    }
+    .fifthbox1 button{
+       margin-left: 40px;
+       margin-top: 30px;
+       width: 60px;
+       height: 25px;
+       color: whitesmoke;
+       font-size: 11px;
+       border: none;
+       outline: none;
+     
+       background-color: #3176e6;
+    }
+    .fifthbox1 img{
+        margin-top: 20px;
+        margin-left: 10px;
+        width: 180px;
+        height: 140px;
+        
+    }
+    .header7{
+        display: flex;
+    }
+    .header7 span{
+        color: green;
+        margin-left: 30px;
+    }
+    .producte1{
+        padding-left: 30px;
+        padding-top: 70px;
+    }
+    
+     .producte1 img{
+      width: 160px;
+      height: 130px;
+      
+    }
+    
+    .producte1 p{
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    
+    
+    .lastdetails{
+        width: 98%;
+        height: 100%;
+        margin-left: 10px;
+        background-color: rgb(230, 238, 223);
+    }
+    .lastone{
+     padding-top: 20px;
+     padding-left: 20px;
+     font-size: 11px;
+    }
+    .lastone h4{
+        opacity: .5;
+    }
+    .lastone h5{
+        opacity: .5;
+    }
+    .lasttwo{
+        padding-top: 20px;
+     padding-left: 20px;
+     font-size: 11px; 
+     
+    }
+    .lasttwo h2{
+        opacity: .5;
+    }
+    .lasttwo h3{
+        opacity: .5;
+    }
+    .lastbox{
+        width: 98%;
+        height: 400px;
+        margin-left: 10px;
+        
+        background-color: rgb(43, 43, 65);
+        color: whitesmokes;
+    }
+    .bluebox {
+        color: whitesmoke;
+        display: flex;
+        font-size: 13px;
+        
+    
+    }
+    
+    .bluebox ul{
+        color: whitesmoke;
+        font-size: 11px;
+        margin-top: 50px;
+        opacity: .7;
+        margin-left: 50px;
+        
+    }
+    .bluebox .lads1{
+        margin-top: 50px;   
+        margin-left: 80px;
+        font-size: 11px;
+        opacity: .7;
+    }
+    .bluebox .lads1 span{
+        font-size: 13px;
+    }
+    .lastlogo ul {
+        display: flex;
+        color: whitesmoke;
+        justify-content: space-around;
+        margin-top: 30px;
+        font-size: 13px;
+    }
+    .lastlogo ul i{
+        color: rgb(173, 157, 6);
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*... .1248...*/
+
+    @media (max-width:600px){
+       
+        .header{
+            width: 100%;
+            height: 100px;
+        
+        }
+        .logo1 img{
+            width: 80px;
+            height: 50px;
+            margin-left: 10px;
+            margin-top: 3px;
+                
+        }
+        
+        
+            
+        .header  .searchbox1 input{
+            margin-top: 55px;
+            margin-left: -80px;
+            width: 300px;
+            height: 30px;
+            border: none;
+            outline: none;
+            border-radius: 2px;
+        }
+        .header .logbtn1{
+           
+            margin-left: -180px;
+            margin-top: 20px;
+            
+        }
+        .logbtn1 button{
+            color: #4088fc;
+            width: 80px;
+            height: 23px;
+            background-color: whitesmoke;
+            border: none;
+            outline: none;
+            border-radius: 2px;
+            font-weight: 500;
+            font-size: 14px;
+           
+        }
+        .header .bac1 {
+            margin-left: 40px;
+          margin-top: 20px;
+          
+        }
+        .bac1 a{
+            color: whitesmoke;
+            font-weight: 500;
+            font-size: 16px;
+        
+        }
+        .header .nav1{
+            margin-left: 40px;
+            margin-top: 20px;
+            color: whitesmoke;
+            font-weight: 500;
+        }
+        .header .cart1{
+            margin-left: 40px;
+            margin-top: 20px;
+            font-weight: 500;
+        }
+        .cart1 a{
+            color: whitesmoke;
+        }
+        .cart1 i{
+            color: whitesmoke;
+        }
+        img{
+            width: 50px;
+            height: 40px;
+            
+        }
+        .header1  {
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-left: 30px;
+            
+        }
+        .header1 a{
+            color: black;
+        }
+        
+        .grocery {
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+        .mobiles1{
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        .fashion2{
+           margin-top: 20px;
+           margin-left: 30px;
+        }
+        .ele2{
+           margin-top: 20px;
+           margin-left: 30px;
+        }
+        .home2{
+           margin-top: 20px;
+           margin-left: 30px;
+        }
+        .toy2{
+           margin-top: 20px;
+           margin-left: 30px;
+        }
+        .app2{
+           margin-top: 20px;
+           margin-left: 30px;
+        }
+        .travel2{
+           margin-top: 20px; 
+           margin-left: 30px;
+        
+        }
+        .offers2{
+           margin-top: 20px;
+           margin-left: 30px;
+        }
+        .bikes1{
+          
+           margin-top: 20px;
+           margin-left: 30px;
+        }
+        
+        
+        
+        .adsimage{
+         
+            width: 100%;
+            overflow: hidden;
+        
+            
+           }
+           .slider{
+            display: flex;
+            position: relative;
+            animation: slider ;
+            animation-duration: 15s;
+            
+            animation-iteration-count: infinite;
+            width: 300%;
+        }
+        .slider img{
+            width: 100%;
+            height: 200px;
+            
+        }
+        
+        
+        @keyframes slider{
+            0%{
+                left: -0%;
+            }
+            20%{
+                left: 0%;
+            }
+             21%{
+                left: -270%;
+            }
+             40%{
+                left: -270%;
+            }
+            41%{
+                left: -490%;
+            }
+            60%{
+                 left: -490%;
+            }
+            61%{
+                left: -270%;
+            }
+            80%{
+                left: -270%;
+            } 
+            81%{
+                left: 0%;
+            } 100%{
+                left: 0%;
+            }
+        }
+        
+        .firstbox1{
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 100px;
+            height: 200px;
+            
+        }
+        .firstbox1 .p1{
+            font-size: 13px;
+            margin-left: 20px;
+            margin-top: 10px;
+            
+            
+        }
+        .firstbox1 .p2{
+            font-size: 13px;
+            margin-left: 10px;
+            
+            
+            
+        }
+        .firstbox1 button{
+           margin-left: 20px;
+           margin-top: 10px;
+           width: 30px;
+           height: 15px;
+           color: whitesmoke;
+           font-size: 10px;
+           border: none;
+           outline: none;
+         
+           background-color: #3176e6;
+        }
+        .firstbox1 img{
+            margin-top: 20px;
+            margin-left: 0px;
+            width: 100px;
+            height:80px;
+            
+        }.header2{
+            display: flex;
+            
+        }
+        
+        .header2 span{
+            color: green;
+            margin-left:20px;
+            font-size: 10px;
+        }
+        .producta1{
+            padding-left: 10px;
+            padding-top: 50px;
+        }
+         .producta1 img{
+          width: 100px;
+          height: 60px;
+          
+        }
+        .producta1 p{
+            font-size: 12px;
+            margin-left: 20px;
+        }
+         
+
+        
+        .secondbox1{
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 100px;
+            height: 200px;
+            
+        }
+        .secondbox1 .p1{
+            font-size: 13px;
+            margin-left: 20px;
+            margin-top: 10px;
+            
+            
+        }
+        .secondbox1 .p2{
+            font-size: 13px;
+            margin-left: 10px;
+            
+            
+            
+        }
+        .secondbox1 button{
+           margin-left: 20px;
+           margin-top: 10px;
+           width: 30px;
+           height: 15px;
+           color: whitesmoke;
+           font-size: 10px;
+           border: none;
+           outline: none;
+         
+           background-color: #3176e6;
+        }
+        .secondbox1 img{
+            margin-top: 20px;
+            margin-left: 0px;
+            width: 100px;
+            height: 80px;
+            
+        }
+        .header4{
+            display: flex;
+            
+        }
+        .header4 span{
+            color: green;
+            margin-left: 20px;
+            font-size: 10px;
+        }
+        .productb1{
+            padding-left: 10px;
+            padding-top: 50px;
+        }
+         .productb1 img{
+          width: 100px;
+          height: 60px;
+          
+        }
+        .productb1 p{
+            font-size: 12px;
+            margin-left: 20px;
+        }
+        
+        
+        
+        .thirdbox1{
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 100px;
+            height: 200px;
+            
+        }
+        .thirdbox1 .p1{
+            font-size: 13px;
+            margin-left: 20px;
+            
+            
+        }
+        .thirdbox1 .p2{
+            font-size: 13px;
+            margin-left: 10px;
+        }
+        .thirdbox1 button{
+           margin-left: 20px;
+           margin-top: 31px;
+           width: 30px;
+           height: 15px;
+           color: whitesmoke;
+           font-size: 10px;
+           border: none;
+           outline: none;
+         
+           background-color: #3176e6;
+        }
+        .thirdbox1 img{
+            margin-top: 20px;
+            margin-left: 0px;
+            width: 100px;
+            height: 80px;
+            
+        }
+        .header5{
+            display: flex;
+            
+        }
+        .header5 span{
+            color: green;
+            margin-left: 20px;
+            font-size: 10px;
+        }
+        .productc1{
+            padding-left: 10px;
+            padding-top: 50px;
+        }
+         .productc1 img{
+          width: 60px;
+          height: 40px;
+          margin-top: 20px;
+        }
+        .productc1 .jack1{
+            width: 80px;
+            height: 100PX;
+            
+            
+        }
+        .productc1 p{
+            font-size: 12px;
+            margin-left: 20px;
+        }
+        
+        
+        
+        
+        
+        .fourthbox1{
+            margin-top: 10px;
+            margin-left: 0px;
+            width: 100px;
+            height: 200px;
+            
+        }
+        .fourthbox1 .p1{
+            font-size: 13px;
+            margin-left: 20px;
+            margin-top: 10px;
+            
+            
+        }
+        
+        .fourthbox1 button{
+           margin-left: 20px;
+           margin-top: 10px;
+           width: 30px;
+           height: 15px;
+           color: whitesmoke;
+           font-size: 10px;
+           border: none;
+           outline: none;
+         
+           background-color: #3176e6;
+        }
+        .fourthbox1 img{
+            margin-top: 20px;
+            margin-left: -0px;
+            width: 100px;
+            height: 80px;
+            
+        }
+        .header6{
+            display: flex;
+            margin-left: -30px;
+        }
+        .header6 span{
+            color: green;
+            margin-left: 20px;
+            font-size: 10px;
+        }
+        .productd1{
+            padding-left: 10px;
+            padding-top: 50px;
+        }
+         .productd1 img{
+          width: 100px;
+          height: 60px;
+          margin-right: 20px;
+          
+        }
+        .productd1 p{
+            font-size: 12px;
+            margin-left: 20px;
+        }
+        
+    
+        
+        
+        
+        
+        
+        .fifthbox1{
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 100px;
+            height: 200px;
+            
+        }
+        .fifthbox1 .p1{
+            font-size: 13px;
+            margin-left: 20px;
+            margin-top: 10px;
+            
+            
+        }
+        .fifthbox1 .p2{
+            font-size: 13px;
+            margin-left: 10px;
+            
+            
+            
+        }
+        .fifthbox1 button{
+           margin-left: 20px;
+           margin-top: 10px;
+           width: 30px;
+           height: 15px;
+           color: whitesmoke;
+           font-size: 10px;
+           border: none;
+           outline: none;
+         
+           background-color: #3176e6;
+        }
+        .fifthbox1 img{
+            margin-top: 20px;
+            margin-left: 0px;
+            width: 100px;
+            height: 80px;
+            
+        }
+        .header7{
+            display: flex;
+        }
+        .header7 span{
+            color: green;
+            margin-left: 20px;
+            font-size: 10px;
+        }
+        .producte1{
+            padding-left: 10px;
+            padding-top: 50px;
+        }
+        
+         .producte1 img{
+          width: 100px;
+          height: 60px;
+          
+        }
+        
+        .producte1 p{
+            font-size: 12px;
+            margin-left: 20px;
+        }
+        
+        
+        .lastdetails{
+            width: 98%;
+            height: 100%;
+            margin-left: 10px;
+            background-color: rgb(230, 238, 223);
+        }
+        .lastone{
+         padding-top: 20px;
+         padding-left: 20px;
+         font-size: 11px;
+        }
+        .lastone h4{
+            opacity: .5;
+        }
+        .lastone h5{
+            opacity: .5;
+        }
+        .lasttwo{
+            padding-top: 20px;
+         padding-left: 20px;
+         font-size: 11px; 
+         
+        }
+        .lasttwo h2{
+            opacity: .5;
+        }
+        .lasttwo h3{
+            opacity: .5;
+        }
+        .lastbox{
+            width: 98%;
+            height: 420px;
+            margin-left: 10px;
+            
+            background-color: rgb(43, 43, 65);
+            color: whitesmokes;
+        }
+        .bluebox {
+            color: whitesmoke;
+            display: flex;
+            font-size: 13px;
+            
+        
+        }
+        
+        .bluebox ul{
+            color: whitesmoke;
+            font-size: 11px;
+            margin-top: 50px;
+            opacity: .7;
+            margin-left: 50px;
+            
+        }
+        .bluebox .lads1{
+            margin-top: 50px;   
+            margin-left: 80px;
+            font-size: 11px;
+            opacity: .7;
+        }
+        .bluebox .lads1 span{
+            font-size: 13px;
+        }
+        .lastlogo ul {
+            display: flex;
+            color: whitesmoke;
+            justify-content: space-around;
+            margin-top: 30px;
+            font-size: 13px;
+        }
+        .lastlogo ul i{
+            color: rgb(173, 157, 6);
+        }
+        }
+        /*.......*/
